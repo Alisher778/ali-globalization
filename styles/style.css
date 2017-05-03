@@ -3,15 +3,32 @@
     
 }*/
 
+/* font family names */
+/*font-family: 'Muli', sans-serif;
+font-family: 'Cabin', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
 @import url('mq-400.css');
 @import url('mq-401-to-720px.css');
 @import url('mq-721-to-1280px.css');
 @import url('mq-1281-to-1440px.css');
 @import url('mq-1441-to-1920px.css');
-@import url('mq-1920p-to-up.css');
+@import url('mq-1921-to-up.css');
+
+*{
+	box-sizing: border-box;
+}
+
+li{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+}
 
 body{
-
+	font-family: 'Roboto', sans-serif;
 }
 
 

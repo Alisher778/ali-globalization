@@ -1,3 +1,29 @@
 @media screen and (max-width: 400px) {
-    
+    nav{
+    	width: 90%;
+    	display: flex;
+    	margin: 0 auto;
+    }
+    .nav-bar{
+    	display: none;
+    }
+	
+	.fa.fa-bars{
+		color: #ccc;
+		align-self: right;
+		cursor: pointer;
+		margin-left: auto;
+		display: none;
+	}
+	.menu-bar{
+		width: 40px;
+		cursor: pointer;
+		margin-left: auto;
+	}
+	.icon-bar{
+		height: 4px;
+		margin: 6px auto;
+		background-color: #000;
+		border-radius: 3px;
+	}
 }
