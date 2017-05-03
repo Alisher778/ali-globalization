@@ -1,0 +1,17 @@
+
+/*@media screen and (min-width: 1281px) and (max-width: 1440px) {
+    
+}*/
+
+@import url('mq-400.css');
+@import url('mq-401-to-720px.css');
+@import url('mq-721-to-1280px.css');
+@import url('mq-1281-to-1440px.css');
+@import url('mq-1441-to-1920px.css');
+@import url('mq-1920p-to-up.css');
+
+body{
+
+}
+
+
