@@ -36,7 +36,7 @@
 		width: 80%;
 		align-self: center;
 	}
-
+	/*##################  Home Page ##################################*/
 	.page{
 		height: 100vh;
 		width: 100vw;
@@ -47,4 +47,29 @@
 	    margin: 0;
 	    padding: 0;
 	}
+
+	.hero-wrapper{
+		max-width: 1440px;
+		width: 90%;
+		align-self: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		position: relative;
+	}
+	.send-brief{
+		position: absolute;
+		bottom: -75px;
+		left: 34%;
+	}
+	.hero-text{
+		width: 80%;
+	}
+
+	#hero-image{
+		width: 80%;
+	}
+
+
 }

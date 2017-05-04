@@ -15,7 +15,44 @@ font-family: 'Roboto', sans-serif;*/
 @import url('mq-1441-to-1920px.css');
 @import url('mq-1921-to-up.css');
 
-.show-menu-bar{
+
+*{
+	box-sizing: border-box;
+}
+
+li{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+	margin:0; 
+}
+nav{
+	width: 90%;
+	display: flex;
+	margin: 0 auto;
+	position: absolute;
+	align-self: center;
+	top: 30px;
+	max-width: 1440px;
+}
+ nav a{
+ 	color: #f1f1f1;
+ }
+
+ nav li{
+ 	margin: auto;
+ }
+
+	.show-menu-bar{
 		display: flex;
 	    flex-direction: column;
 	    position: fixed;
@@ -61,45 +98,33 @@ font-family: 'Roboto', sans-serif;*/
 		 position: relative;
     		top: -10px;
 	}
-*{
-	box-sizing: border-box;
-}
-
-li{
-	list-style-type: none;
-}
-
-a{
-	text-decoration: none;
-}
-
-body{
-	font-family: 'Roboto', sans-serif;
+.page{
+	height: 100vh;
+	width: 100vw;
 	display: flex;
 	flex-direction: column;
-	padding: 0;
-	margin:0; 
+	justify-content: center;
+	}
+
+.page.home{
+	background-color: #1abc9c;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 
-.page{
-		height: 100vh;
-		width: 100vw;
-	}
-	.page.home{
-		background-color: #1abc9c;
-	    z-index: -1;
-	    margin: 0;
-	    padding: 0;
-	}
-nav{
-    	width: 90%;
-    	display: flex;
-    	margin: 0 auto;
-    	position: absolute;
-    	align-self: center;
-    	top: 30px;
-    	max-width: 1440px;
-    }
- nav a{
- 	color: #f1f1f1;
- }
+.hero-text{
+	color: #f1f1f1;
+	font-family: 'Muli', sans-serif;
+}
+
+.send-brief{
+	display: inline-block;
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 26px;
+  width: 150px;
+  text-align: center;
+  color: #fff;
+}
