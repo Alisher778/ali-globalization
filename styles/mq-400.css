@@ -3,17 +3,15 @@
     	width: 90%;
     	display: flex;
     	margin: 0 auto;
+    	position: absolute;
+    	align-self: center;
     }
     .nav-bar{
     	display: none;
     }
 	
-	.fa.fa-bars{
-		color: #ccc;
-		align-self: right;
-		cursor: pointer;
-		margin-left: auto;
-		display: none;
+	.logo{
+		align-self: center;
 	}
 	.menu-bar{
 		width: 40px;

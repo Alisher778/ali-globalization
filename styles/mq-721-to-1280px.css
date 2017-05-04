@@ -1,5 +1,29 @@
 @media screen and (min-width: 721px) and (max-width: 1280px) {
-    .nav-bar{
+    nav{
     	display: flex;
+    	width: 80%;
+    	margin: 0 auto;
     }
+
+    .nav-bar{
+    	align-self: center;
+    }
+
+    .logo{
+    	width: 120px;
+    	align-self: center;
+    }
+
+    .menu-bar{
+		display: none;
+	}
+
+	.nav-bar{
+		display: flex;
+		justify-content: space-around;
+		min-width: 560px;
+		max-width: 700px;
+		margin-left: auto;
+	}
+
 }

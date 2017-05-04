@@ -3,17 +3,14 @@
     	width: 90%;
     	display: flex;
     	margin: 0 auto;
+    	position: absolute;
+    	align-self: center;
     }
     .nav-bar{
     	display: none;
     }
-	
-	.fa.fa-bars{
-		color: #ccc;
-		align-self: right;
-		cursor: pointer;
-		margin-left: auto;
-		display: none;
+	.logo{
+		align-self: center;
 	}
 	.menu-bar{
 		width: 40px;
@@ -38,5 +35,16 @@
 	.show-menu-bar li{
 		width: 80%;
 		align-self: center;
+	}
+
+	.page{
+		height: 100vh;
+		width: 100vw;
+	}
+	.page.home{
+		background-color: #32ebc4;
+	    z-index: -1;
+	    margin: 0;
+	    padding: 0;
 	}
 }
