@@ -41,7 +41,9 @@
     #hero-image{
         width: 50%;
     }
-
+    .guide-btn{
+        display: flex;
+    }
     /*=============== About Page ===============================*/
     .about-page{
         max-width: 1440px;

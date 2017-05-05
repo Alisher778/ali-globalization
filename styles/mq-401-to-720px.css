@@ -71,6 +71,9 @@
 		width: 80%;
 	}
 	
+	.guide-btn{
+		display: none;
+	}
 	/*=============== About Page ===============================*/
 	.page.about{
 		background-color: 
@@ -103,6 +106,7 @@
 		right: 5px;
 		top: -17px;
 	}
+
 
 	.founder p{
         width: 80%;

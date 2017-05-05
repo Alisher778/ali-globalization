@@ -148,7 +148,6 @@ nav{
 	right: 10px;
 	top: 25%;
 	align-self: center;
-	display: flex;
 	flex-direction: column;
 	width: 30px;
 	height: 500px;
@@ -173,6 +172,33 @@ nav{
 .founder{
 	position: relative;
 }
+
+
+/*========== Case Study Page ===================================*/
+
+
+.page.work{
+    background-color: #2980b9;
+}
+
+.case-study{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
