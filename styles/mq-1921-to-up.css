@@ -48,7 +48,6 @@
         width: 90%;
         align-self: center;
         display: flex;
-        flex-direction: column;
         align-items: center;
         justify-content: space-between;
         position: relative;
@@ -62,7 +61,33 @@
     .about-text{
         width: 45%;
         align-self: flex-start;
-        font-size: 1.6em;
+        font-size: 1.5em;
+        font-family: 'Muli', sans-serif;
+    }
+    .founder p{
+        width: 80%;
+        float: left;
+        font-size: 0.8em;
+        font-style: italic;
+        color: #1abc9c;
+        position: relative;
+    }
+    .founder p span{
+        position: relative;
+        top: 27px;
+        right: 47px;
+        display: block;
+        text-align: right;
+        color: #7d7a7a;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 0.8em;
+    }
+    .founder img{
+        width: 25%;
+        position: absolute;
+        right: 5px;
+        top: -40px;
     }
 
 }

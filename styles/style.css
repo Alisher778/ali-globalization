@@ -43,6 +43,7 @@ nav{
 	align-self: center;
 	top: 30px;
 	max-width: 1440px;
+	z-index: 1;
 }
  nav a{
  	color: #f1f1f1;
@@ -50,6 +51,9 @@ nav{
 
  nav li{
  	margin: auto;
+ }
+ .logo{
+ 	cursor: pointer;
  }
 	.logo img{
 		width: 235px;
@@ -110,7 +114,6 @@ nav{
 
 .page.home{
 	background-color: #1abc9c;
-    z-index: -1;
     margin: 0;
     padding: 0;
     display: flex;
@@ -118,7 +121,7 @@ nav{
 .page.about{
 	
 /*background-color: #bdc3c7;*/
-  z-index: -1;
+  
   margin: 0;
   padding: 0;
   display: flex;
@@ -127,14 +130,15 @@ nav{
 .hero-text{
 	color: #f1f1f1;
 	font-family: 'Muli', sans-serif;
+	font-size: 1.2em;
 }
 
 .send-brief{
 	display: inline-block;
   border: 1px solid #fff;
-  padding: 10px;
+  padding: 10px 15px;
   border-radius: 26px;
-  width: 150px;
+  width: auto;
   text-align: center;
   color: #fff;
 }
@@ -161,4 +165,14 @@ nav{
 	width: 20px;
 	height: 20px;
 }
+
+/*  About Page */
+.about-text h1{
+	text-align: center;
+}
+.founder{
+	position: relative;
+}
+
+
 
