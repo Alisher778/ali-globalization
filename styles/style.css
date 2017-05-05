@@ -51,7 +51,9 @@ nav{
  nav li{
  	margin: auto;
  }
-
+	.logo img{
+		width: 235px;
+	}
 	.show-menu-bar{
 		display: flex;
 	    flex-direction: column;
