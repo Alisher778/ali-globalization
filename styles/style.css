@@ -115,6 +115,14 @@ nav{
     padding: 0;
     display: flex;
 }
+.page.about{
+	
+/*background-color: #bdc3c7;*/
+  z-index: -1;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
 
 .hero-text{
 	color: #f1f1f1;
@@ -130,3 +138,27 @@ nav{
   text-align: center;
   color: #fff;
 }
+
+.guide-btn{
+	position: fixed;
+	right: 10px;
+	top: 25%;
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	width: 30px;
+	height: 500px;
+	justify-content: space-around;
+}
+.guide-icon{
+	width: 8px;
+	height: 8px;
+	background-color: #fff;
+	align-self: center;
+	border-radius: 50%;
+}
+.guide-icon.selected{
+	width: 20px;
+	height: 20px;
+}
+
