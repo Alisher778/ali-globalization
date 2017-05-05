@@ -134,4 +134,49 @@
         top: 10%;
     }
 
+    .work-page{
+    	width: 100%;
+    	display: flex;
+    	align-self: center;
+    	flex-direction: column;
+    	margin: 0;
+    	padding: 0
+    }
+
+    .work-page li{
+       flex: 0 50%;
+        padding: 0;
+        margin: -3px 0;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .work-page li img{
+        width: 100%;
+        transition: 2s;
+    }
+    .work-page li:hover img{
+        transform: scale(1.2);
+    }
+    .work-detail{
+        opacity: 0;
+        background-color: rgba(39, 41, 39, 0.92);
+        transition: 2s;
+        z-index: 3;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: #fff;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+
+    }
+    .work-detail:hover{
+        opacity: 1;
+        transform: scale(1.2);
+
 }
