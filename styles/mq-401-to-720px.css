@@ -98,7 +98,7 @@
         text-align: justify;
         font-size: 1.2em;
 		font-family: 'Muli', sans-serif;
-		font-size: 1.2em;
+	
     }
     .founder img{
 		width: 25%;
@@ -179,5 +179,58 @@
     .work-detail:hover{
         opacity: 1;
         transform: scale(1.2);
+
+	}
+
+	/*================= Servicess ============================*/
+
+	.service{
+		width: 90%;
+		align-self: center;
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.service-type{
+		display: flex;
+		flex-direction: column;
+		font-size: 1.2em;
+		font-family: 'Muli', sans-serif;
+	}
+	.service-type li{
+		font-size: 1.2em;
+	}
+	.service-type li h1{
+		text-align: center;
+        color: #1abc9c;
+	}
+	.service-type li p{
+		text-align: justify;
+	}
+	.service-type li img{
+		width: 50%;
+		height: 50%;
+		max-height: 50%;
+		max-width: 50%;
+		border-radius: 25px;
+	}
+	
+	.service-icon {
+	    display: flex;
+	    justify-content: center;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
