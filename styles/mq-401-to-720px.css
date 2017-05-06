@@ -135,7 +135,7 @@
     }
 
     .work-page{
-    	width: 100%;
+    	width: 90%;
     	display: flex;
     	align-self: center;
     	flex-direction: column;
@@ -144,10 +144,11 @@
     }
 
     .work-page li{
-       flex: 0 50%;
+       
         padding: 0;
-        margin: -3px 0;
+        margin: 10px;
         position: relative;
+        border-radius: 15px;
         overflow: hidden;
     }
 

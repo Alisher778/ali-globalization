@@ -93,7 +93,7 @@
         top: 10%;
     }
     .work-page{
-        width: 100%;
+        width: 90%;
         display: flex;
         align-self: center;
         margin: 0;
@@ -103,15 +103,17 @@
     }
 
     .work-page li{
-       flex: 0 50%;
+       flex: 0 46%;
         padding: 0;
-        margin: -3px 0;
+        margin: 10px;
         position: relative;
         overflow: hidden;
+        border-radius: 15px;
     }
 
     .work-page li img{
         width: 100%;
+        height: 100%;
         transition: 2s;
     }
     .work-page li:hover img{
@@ -119,7 +121,7 @@
     }
     .work-detail{
         opacity: 0;
-        background-color: rgba(39, 41, 39, 0.92);
+        background-color: rgba(39, 41, 39, 0.95);
         transition: 2s;
         z-index: 3;
         display: flex;
