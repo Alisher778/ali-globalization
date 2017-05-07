@@ -105,96 +105,176 @@ nav{
     		top: -10px;
 	}
 .page{
-	height: 100vh;
+	min-height: 100vh;
 	width: 100vw;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	}
 
-.page.home{
-	background-color: #1abc9c;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-.page.about{
+	.page.home{
+		background-color: #1abc9c;
+	    margin: 0;
+	    padding: 0;
+	    display: flex;
+	}
+	.page.about{
+		
+	/*background-color: #bdc3c7;*/
+	  
+	  margin: 0;
+	  padding: 0;
+	  display: flex;
+	}
+
+	.hero-text{
+		color: #f1f1f1;
+		font-family: 'Muli', sans-serif;
+		font-size: 1.2em;
+	}
+
+	.send-brief{
+		display: inline-block;
+	  border: 1px solid #fff;
+	  padding: 10px 15px;
+	  border-radius: 26px;
+	  width: auto;
+	  text-align: center;
+	  color: #fff;
+	}
+
+	.guide-btn{
+		position: fixed;
+		right: 10px;
+		top: 25%;
+		align-self: center;
+		flex-direction: column;
+		width: 30px;
+		height: 500px;
+		justify-content: space-around;
+	}
+	.guide-icon{
+		width: 8px;
+		height: 8px;
+		background-color: #fff;
+		align-self: center;
+		border-radius: 50%;
+	}
+	.guide-icon.selected{
+		width: 20px;
+		height: 20px;
+	}
+
+	/*  About Page */
+	.about-text h1{
+		text-align: center;
+	}
+	.founder{
+		position: relative;
+	}
+
+
+	/*========== Case Study Page ===================================*/
+
+
+	.page.work{
+	    background-color: rgb(26, 188, 156);
+	}
+
+	.case-study{
+		text-align: center;
+		margin-bottom: 30px;
+		color: #fff;
+	}
+
+	.line{
+		height: 4px;
+		width: 30px;
+		background: #000;
+	}
+
+
+	/*============= Contact Page =================================*/
+
+	.page.contact{
+		background-color: #1abc9c;
+	    margin: 0;
+	    padding: 0;
+	    display: flex;
+	}
+	.contact-page{
+		width: 90%;
+		max-width: 1440px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		align-self: center;
+	}
 	
-/*background-color: #bdc3c7;*/
-  
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
+	.contact-page form{
+		width: 90%;
+		max-width: 1400px;
+		align-self: center;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		border-radius: 38px;
+	}
+	.contact-page form p{
+		flex:0 32%;
+		display: flex;
+		justify-content: center;
+		margin: 5px;
+	}
+	input.contact{
+		width: 98%;
+		height: 50px;
+		border: 0;
+		border-radius: 8px;
+		border-bottom: 1px solid;
+		color: black;
+		padding: 3px 10px;
+		font-size: 1.4em;
+		font-family: 'Muli', sans-serif;
+		outline: none; 
+		transition: 2s;
+	}
+	input.contact:focus{ 
+		transform: scale(1.8);
+		border-radius: 15px;
+	}
+	
+	#textarea{
+		width: 100%;
+		border-bottom: 1px solid;
+		outline: none;
+		transition: 2s;
+		font-size: 1.4em;
+		font-family: 'Muli', sans-serif;
+		padding: 10px;
+		margin-top: 25px;
+		margin-bottom: 25px;
+		border-radius: 20px;
+	}
+	#textarea:focus{
+		transform: scale(1.8);
+		border-radius: 20px;
 
-.hero-text{
-	color: #f1f1f1;
-	font-family: 'Muli', sans-serif;
-	font-size: 1.2em;
-}
-
-.send-brief{
-	display: inline-block;
-  border: 1px solid #fff;
-  padding: 10px 15px;
-  border-radius: 26px;
-  width: auto;
-  text-align: center;
-  color: #fff;
-}
-
-.guide-btn{
-	position: fixed;
-	right: 10px;
-	top: 25%;
-	align-self: center;
-	flex-direction: column;
-	width: 30px;
-	height: 500px;
-	justify-content: space-around;
-}
-.guide-icon{
-	width: 8px;
-	height: 8px;
-	background-color: #fff;
-	align-self: center;
-	border-radius: 50%;
-}
-.guide-icon.selected{
-	width: 20px;
-	height: 20px;
-}
-
-/*  About Page */
-.about-text h1{
-	text-align: center;
-}
-.founder{
-	position: relative;
-}
-
-
-/*========== Case Study Page ===================================*/
-
-
-.page.work{
-    background-color: rgb(26, 188, 156);
-}
-
-.case-study{
-	text-align: center;
-	margin-bottom: 30px;
-	color: #fff;
-}
-
-.line{
-	height: 4px;
-	width: 30px;
-	background: #000;
-}
-
-
-
+	}
+	
+	.send-email{
+		width: 30%;
+	    margin: 10px auto 30px auto;
+	    height: 61px;
+	    border-radius: 40px;
+	    background-color: #E91E63;
+	    border: 4px solid #fff;
+	    color: #fff;
+	    font-size: 1.2em;
+	    cursor: pointer;
+	    padding: 10px;
+	}
 
 
 
