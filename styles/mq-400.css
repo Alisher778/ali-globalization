@@ -171,9 +171,9 @@
 
     
     /*========= Sen A Brief =============================*/
-    /*============= Contact Page =================================*/
 
-    .page.contact{
+
+    .page.send{
         background-color: #1abc9c;
         margin: 0;
         padding: 0;
@@ -204,7 +204,7 @@
         align-items: center;
         align-self: center;
     }
-    .page.contact h1{
+    .page.send h1{
         font-size: 1.5em;
         font-family: 'Muli', sans-serif;
         font-weight: 600;
