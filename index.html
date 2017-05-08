@@ -9,6 +9,13 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="javascript/main.js"></script>
+	<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+	<!-- Email JS initializing -->
+	<script type="text/javascript">
+	   (function(){
+	      emailjs.init("user_a16m1qh45SkbgFSOMhzTP");
+	   })();
+	</script>
 </head>
 <body>
 	<nav>
@@ -18,7 +25,7 @@
 			<li><a href="#service">SERVICE</a></li>
 			<li><a href="#work">WORK</a></li>
 			<li><a href="#">CONTACT</a></li>
-			<li><a href="#" class="send-brief">SEND A BRIEF</a></li>
+			<li><a href="#send_a_brief" class="send-brief">SEND AN INQUERY</a></li>
 			<li class="close-bar">
 				<div class="icon-bar-close"></div>
 				<div class="icon-bar-close"></div>
@@ -45,7 +52,7 @@
 				<h1>All-in-One website solutions</h1>
 				<p>We'are an interactive IT company whose purpose to help clients all websites needs. We offer an interactive, dynamic, responsive and modern websites using all the best intustry tools and technologies.  </p>
 
-				<a href="#" class="send-brief">SEND A BRIEF</a>
+				<a href="#" class="send-brief">SEND AN INQUERY</a>
 			</div>
 			<img src="images/hero.png" alt="hero page image" id="hero-image">
 		</div>
@@ -170,17 +177,23 @@
 			<a href="#" class="send-brief">SEND A BRIEF</a>
 		</div>
 	</section>
-	<section class="page contact">
+	<section class="page contact" id="send_a_brief">
+		<div class="message">
+			<img src="images/icon.png" alt="">
+			<div><spna class="smile">Yey!</spna> Your request has been sent successfully!</div>
+		</div>
+		<h1>Tell Us About Your Project</h1>
 		<div class="contact-page">
-			<h1>LET"S GET STARTED YOUR PROJECT BRIEF</h1>
-			<p>Tell us a little bit about your project so that we will have a general idea what your goals are and it will help us to analize and prepare your project details.</p>
-			<form action="">
-				<p><input type="text" class="contact" name="name" placeholder="Full Name" required></p>
-				<p><input type="email" class="contact" name="email" placeholder="Email Address" required></p>
-				<p><input type="number" class="contact" name="phone" placeholder="Phone Number" required></p>
-				<textarea name="info" id="textarea" cols="30" rows="10" placeholder="Describe your project"></textarea>
-				<button class="send-email">Send Your enquiry</button>
-			</form>
+			<div class="send-a-brief">
+				<img src="images/send_a_brief.png" alt="">
+				<form action="">
+					<p><input type="text" class="contact" name="name" placeholder="Full Name" required></p>
+					<p><input type="email" class="contact" name="email" placeholder="Email Address" required></p>
+					<p><input type="number" class="contact" name="phone" placeholder="Phone Number" required></p>
+					<textarea name="info" id="textarea" cols="30" rows="10" placeholder="Describe your project"></textarea>
+					<button class="send-email">Send Your Inquiry</button>
+				</form>
+			</div>
 		</div>
 	</section>
 </body>
