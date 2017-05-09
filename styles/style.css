@@ -208,12 +208,30 @@ nav li {
 
 /* ========= Contact Page ========================================*/
 
+.page.contact{
+	justify-content: space-between;
+}
 .contact-us a{
 	flex: 0 32%;
 	color: #0c8e76;
 }
 
+footer{
+	text-align: center;
+	height: 300px;
+	color: #fff;
+	background-color: #34495e;
+	overflow: hidden;
+}
 
+footer iframe{
+	width: 42%;
+    align-self: flex-start;
+    position: relative;
+    top: -48px;
+    overflow: hidden;
+    height: 348px;
+}
 
 
 
