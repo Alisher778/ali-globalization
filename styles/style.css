@@ -1,9 +1,11 @@
-
 /*@media screen and (min-width: 1281px) and (max-width: 1440px) {
     
 }*/
 
+
 /* font family names */
+
+
 /*font-family: 'Muli', sans-serif;
 font-family: 'Cabin', sans-serif;
 font-family: 'Roboto', sans-serif;*/
@@ -14,186 +16,216 @@ font-family: 'Roboto', sans-serif;*/
 @import url('mq-1281-to-1440px.css');
 @import url('mq-1441-to-1920px.css');
 @import url('mq-1921-to-up.css');
-
-
-*{
-	box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
 
-li{
-	list-style-type: none;
+li {
+    list-style-type: none;
 }
 
-a{
-	text-decoration: none;
+a {
+    text-decoration: none;
 }
 
-body{
-	font-family: 'Roboto', sans-serif;
-	display: flex;
-	flex-direction: column;
-	padding: 0;
-	margin:0; 
+body {
+    font-family: "Muli", sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
 }
-nav{
-	width: 90%;
-	display: flex;
-	margin: 0 auto;
-	position: absolute;
-	align-self: center;
-	top: 30px;
-	max-width: 1440px;
-	z-index: 1;
+
+nav {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    position: absolute;
+    align-self: center;
+    top: 30px;
+    max-width: 1440px;
+    z-index: 1;
 }
- nav a{
- 	color: #f1f1f1;
- }
 
- nav li{
- 	margin: auto;
- }
- .logo{
- 	cursor: pointer;
- }
-	.logo img{
-		width: 235px;
-	}
-	.show-menu-bar{
-		display: flex;
-	    flex-direction: column;
-	    position: fixed;
-	    top: 0;
-	    left: 0;
-	    width: 100%;
-	    height: 100%;
-	    background-color: #abe957;
-	    border: 1px solid;
-	    align-items: center;
-	    margin: 0;
-	    padding: 0;
-	}
-	.show-menu-bar li{
-		width: 80%;
-		align-self: center;
-	}
-	
-	.close-bar{
-		display: none;
-	}
+nav a {
+    color: #f1f1f1;
+}
 
-	.show-menu-bar .close-bar{
-		display: block;
-		position: absolute;
-		right: 10px;
-		top: 10px;
-		width: 40px;
-	}
+nav li {
+    margin: auto;
+}
 
-	.show-menu-bar .icon-bar-close{
-		height: 4px;
-		width: 30px;
-		margin: 6px auto;
-		background-color: #000;
-	}
-	.icon-bar-close:nth-child(1){
-		transform: rotate(45deg);
-   
-	}
-	.icon-bar-close:nth-child(2){
-		transform: rotate(-45deg);
-		 position: relative;
-    		top: -10px;
-	}
-.page{
-	min-height: 100vh;
-	width: 100vw;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	position: relative;
-	}
+.logo {
+    cursor: pointer;
+}
 
-	.page.home{
-		background-color: #1abc9c;
-	    margin: 0;
-	    padding: 0;
-	    display: flex;
-	}
-	.page.about{
-		
-	/*background-color: #bdc3c7;*/
-	  
-	  margin: 0;
-	  padding: 0;
-	  display: flex;
-	}
+.logo img {
+    width: 235px;
+}
 
-	.hero-text{
-		color: #f1f1f1;
-		font-family: 'Muli', sans-serif;
-		font-size: 1.2em;
-	}
+.show-menu-bar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #abe957;
+    border: 1px solid;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
 
-	.send-brief{
-		display: inline-block;
-	  border: 1px solid #fff;
-	  padding: 10px 15px;
-	  border-radius: 26px;
-	  width: auto;
-	  text-align: center;
-	  color: #fff;
-	}
+.show-menu-bar li {
+    width: 80%;
+    align-self: center;
+}
 
-	.guide-btn{
-		position: fixed;
-		right: 10px;
-		top: 25%;
-		align-self: center;
-		flex-direction: column;
-		width: 30px;
-		height: 500px;
-		justify-content: space-around;
-	}
-	.guide-icon{
-		width: 8px;
-		height: 8px;
-		background-color: #fff;
-		align-self: center;
-		border-radius: 50%;
-	}
-	.guide-icon.selected{
-		width: 20px;
-		height: 20px;
-	}
+.close-bar {
+    display: none;
+}
 
-	/*  About Page */
-	.about-text h1{
-		text-align: center;
-	}
-	.founder{
-		position: relative;
-	}
+.show-menu-bar .close-bar {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 40px;
+}
 
+.show-menu-bar .icon-bar-close {
+    height: 4px;
+    width: 30px;
+    margin: 6px auto;
+    background-color: #000;
+}
 
-	/*========== Case Study Page ===================================*/
+.icon-bar-close:nth-child(1) {
+    transform: rotate(45deg);
+}
+
+.icon-bar-close:nth-child(2) {
+    transform: rotate(-45deg);
+    position: relative;
+    top: -10px;
+}
+
+.page {
+    min-height: 100vh;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.page.home {
+    background-color: #1abc9c;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.page.about {
+    /*background-color: #bdc3c7;*/
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.hero-text {
+    color: #f1f1f1;
+    font-family: 'Muli', sans-serif;
+    font-size: 1.2em;
+}
+
+.send-brief {
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 10px 15px;
+    border-radius: 26px;
+    width: auto;
+    text-align: center;
+    color: #fff;
+}
+
+.guide-btn {
+    position: fixed;
+    right: 10px;
+    top: 25%;
+    align-self: center;
+    flex-direction: column;
+    width: 30px;
+    height: 500px;
+    justify-content: space-around;
+}
+
+.guide-icon {
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    align-self: center;
+    border-radius: 50%;
+}
+
+.guide-icon.selected {
+    width: 20px;
+    height: 20px;
+}
 
 
-	.page.work{
-	    background-color: rgb(26, 188, 156);
-	}
+/*  About Page */
 
-	.case-study{
-		text-align: center;
-		margin-bottom: 30px;
-		color: #fff;
-	}
+.about-text h1 {
+    text-align: center;
+}
 
-	.line{
-		height: 4px;
-		width: 30px;
-		background: #000;
-	}
+.founder {
+    position: relative;
+}
+
+
+/*========== Case Study Page ===================================*/
+
+.page.work {
+    background-color: rgb(26, 188, 156);
+}
+
+.case-study {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.line {
+    height: 4px;
+    width: 30px;
+    background: #000;
+}
+
+/* ========= Contact Page ========================================*/
+
+.contact-us a{
+	flex: 0 32%;
+	color: #0c8e76;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

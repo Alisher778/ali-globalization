@@ -330,9 +330,42 @@
 
     }
 
+    /*========== Contact Us =================================*/
+    .page.contact h1{
+        color: #1abc9c;
+        font-family: "Muli", sans-serif;
+        font-size: 3em;
+        text-align: center;
+        margin-bottom: 6%;
+    }
+    .contact-us{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        max-width: 1440px;
+        align-self: center;
+    }
+    .contact-icons{
+        display: flex;
+        flex: 0 32%;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        font-size: 2em;
+        text-align: center;
+        word-break: break-word;
+        font-family: "Muli", sans-serif;
+    }
 
+    .contact-icons img{
+        width: 350px;
+        border-radius: 50%;
+    }
 
-
+    .contact-img{
+        width: 40%;
+        align-self: center;
+    }
 
 
 
