@@ -400,6 +400,22 @@
         align-self: center;
     }
 
+    footer{
+        text-align: center;
+        height: 300px;
+        color: #fff;
+        background-color: #34495e;
+        overflow: hidden;
+    }
+
+    footer iframe{
+        width: 100%;
+        align-self: flex-start;
+        position: relative;
+        top: -48px;
+        overflow: hidden;
+        height: 348px;
+    }
 
 
 
