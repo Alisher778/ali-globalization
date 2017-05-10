@@ -63,54 +63,47 @@ nav li {
     width: 235px;
 }
 
-.show-menu-bar {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #abe957;
-    border: 1px solid;
-    align-items: center;
-    margin: 0;
-    padding: 0;
+.icon-bar.one.active{
+    transition: all 1s;
+    transform: rotate(35deg);
+    width: 70%;
+    position: relative;
+    right: -8px;
+    top: 3px;
+}
+.icon-bar.three.active{
+    transition: all 1s;
+    transform: rotate(-35deg);
+    width: 70%;
+    position: relative;
+    right: -8px;
+    top: -3px;
 }
 
-.show-menu-bar li {
-    width: 80%;
-    align-self: center;
+@keyframes one{
+    from{width: 40px; cursor: pointer; margin-left: auto; align-self: center; position: relative; top: -19px;}
+    to{transform: rotate(35deg); width: 70%; position: relative; right: -8px; top: 3px;}
 }
+@keyframes two{
+    from{width: 40px; cursor: pointer; margin-left: auto; align-self: center; position: relative; top: 19px;}
+    to{transform: rotate(-35deg); width: 70%; position: relative; right: -8px; top: 3px;}
+}
+
 
 .close-bar {
     display: none;
+    color: #fff;
 }
 
-.show-menu-bar .close-bar {
-    display: block;
-    position: absolute;
-    right: 10px;
-    top: 10px;
+.menu-bar{
     width: 40px;
-}
-
-.show-menu-bar .icon-bar-close {
-    height: 4px;
-    width: 30px;
-    margin: 6px auto;
-    background-color: #000;
-}
-
-.icon-bar-close:nth-child(1) {
-    transform: rotate(45deg);
-}
-
-.icon-bar-close:nth-child(2) {
-    transform: rotate(-45deg);
+    cursor: pointer;
+    margin-left: auto;
+    align-self: center;
     position: relative;
-    top: -10px;
+    top: -19px;
 }
+
 
 .page {
     min-height: 100vh;

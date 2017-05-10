@@ -1,10 +1,10 @@
 $(document).ready(function(){
 	$('.menu-bar').click(function(){
-	
-		$('.nav-bar').addClass('show-menu-bar');
-		$('.close-bar').click(function(){
-			$('.nav-bar').removeClass('show-menu-bar');
-		})
+		
+		$('.nav-bar').toggleClass('show-menu-bar');
+		$('.icon-bar.one').toggleClass('active');
+		$('.icon-bar.three').toggleClass('active');
+		
 	});
 
 	$('form').submit(function(e){
@@ -25,4 +25,10 @@ $(document).ready(function(){
 	 	})
 		
 	})
+
+	$("#scrol-btn").click(function() {
+  		$("html, body").animate({ scrollTop: 0 }, 2000);
+  		return false;
+	});
+
 }) 
