@@ -5,7 +5,14 @@ $(document).ready(function(){
 		$('.icon-bar.one').toggleClass('active');
 		$('.icon-bar.three').toggleClass('active');
 		
+		$('.nav-bar.show-menu-bar .nav-links').click(function(){
+			$('.nav-bar').removeClass('show-menu-bar');
+			$('.icon-bar.one').removeClass('active');
+			$('.icon-bar.three').removeClass('active');
+		})
 	});
+
+	
 
 	$('form').submit(function(e){
 		e.preventDefault();

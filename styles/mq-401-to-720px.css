@@ -67,7 +67,19 @@
     height: 56px;
     font-size: 2em;
 }
-
+.show-menu-bar .nav-links:hover{
+    transition: 2s;
+    background-color: rgb(171, 189, 198);
+    width: 100%;
+    padding: 15px;
+}
+.nav-links a{
+    display: block;
+    width: 100%;
+}
+.nav-links a:hover{
+    color: #484848;
+}
 
 /*##################  Home Page ##################################*/
 	.page{
