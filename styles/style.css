@@ -1338,11 +1338,22 @@ nav li {
         margin-top: 3%;
     }
     .icon-bar {
-        height: 8px;
+        height: 15px;
         margin: 16px auto;
         background-color: #fff;
-        border-radius: 3px;
+        border-radius: 5px;
         transition: all 1s
+    }
+    .icon-bar.one.active, .icon-bar.three.active{
+        right: -29px;
+    }
+    .icon-bar.one.active{
+        transform: rotate(45deg);
+        top: 9px;
+    }
+    .icon-bar.three.active{
+        transform: rotate(-45deg);
+        top: -9px;
     }
     ul.nav-bar.show-menu-bar {
         transition: all 2s;
@@ -1386,7 +1397,8 @@ nav li {
     }
     .nav-links a {
         display: block;
-        width: 100%
+        width: 100%;
+        font-size: 2em;
     }
     .nav-links a:hover {
         color: #484848
@@ -1425,18 +1437,21 @@ nav li {
     .about-page {
         max-width: 1440px;
         width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
         align-items: center;
         justify-content: space-between;
         position: relative
     }
     .about-page img {
-        width: 50%
+        width: 50%;
+        order: 2;
     }
     .about-text {
-        width: 45%;
         align-self: flex-start;
         text-align: justify;
-        font-size: 1.2em
+        font-size: 2.2em
     }
     .founder p,
     .founder p span {
