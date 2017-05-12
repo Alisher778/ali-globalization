@@ -50,7 +50,7 @@ nav {
     position: absolute;
     top: 30px;
     max-width: 1440px;
-    z-index: 1
+    z-index: 4;
 }
 
 nav a {
@@ -207,7 +207,8 @@ nav li {
 }
 
 .case-study {
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    font-size: 3.5em;
 }
 
 .line {
@@ -1486,7 +1487,7 @@ nav li {
     }
     .work-page {
         width: 90%;
-        display: flex;
+        /* display: flex; */
         align-self: center;
         margin: 0;
         padding: 0;
@@ -1522,46 +1523,41 @@ nav li {
     .work-detail:hover {
         opacity: 1
     }
-    .service {
+    .service{
         width: 90%;
         align-self: center;
         align-items: center;
         display: flex;
-        flex-direction: column
+        flex-direction: column;
     }
-    .service-type {
+
+    .service-type{
         display: flex;
-        flex-direction: column
+        flex-direction: column;
+        font-size: 1.2em;
+        font-family: 'Muli', sans-serif;
     }
-    .service-type li {
-        display: flex;
-        justify-content: space-around;
-        align-items: center
+    .service-type li{
+        font-size: 1.2em;
     }
-    .service-type li h1 {
-        text-align: left;
-        color: #1abc9c
+    .service-type li h1{
+        text-align: center;
+        color: #1abc9c;
     }
-    .message div,
-    .page.send h1 {
-        color: #fff;
-        font-family: Muli, sans-serif
+    .service-type li p{
+        text-align: justify;
     }
-    .service-type li p {
-        text-align: justify
+    .service-type li img{
+        width: 50%;
+        height: 50%;
+        max-height: 50%;
+        max-width: 50%;
+        border-radius: 25px;
     }
-    .service-text {
-        flex: 0 70%
-    }
+    
     .service-icon {
         display: flex;
-        position: relative;
-        top: 30px
-    }
-    .service-icon img {
-        width: 140px;
-        align-self: flex-end;
-        border-radius: 20px
+        justify-content: center;
     }
     #textarea,
     .contact-img,
