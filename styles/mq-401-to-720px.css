@@ -1,209 +1,176 @@
-@media screen and (min-width: 401px) and (max-width: 720px) {
-    nav{
-    	width: 90%;
-    	display: flex;
-    	margin: 0 auto;
-    	position: absolute;
-    	align-self: center;
+@media screen and (min-width:401px) and (max-width:720px) {
+    .hero-wrapper,
+    .logo,
+    nav {
+        align-self: center
     }
-    .nav-bar{
-    	display: none;
+    .about-text,
+    .service-type {
+        font-family: Muli, sans-serif
     }
-	.logo{
-		align-self: center;
-	}
-	.menu-bar{
-		width: 40px;
-		cursor: pointer;
-		margin-left: auto;
-	}
-	.icon-bar{
-		height: 4px;
-		margin: 6px auto;
-		background-color: #fff;
-		border-radius: 3px;
-        transition: all 1s;
-	}
-
-	.show-menu-bar{
-		display: flex;
-	    flex-direction: column;
-	    position: relative;
-	    top: 27px;
-	    border: 1px solid;
-	    align-items: center;
-	}
-	.show-menu-bar li{
-		width: 80%;
-		align-self: center;
-	}
-    ul.nav-bar.show-menu-bar{
-         transition: all 2s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.show-menu-bar {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(64, 87, 99);
-    border: 1px solid;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-.show-menu-bar li {
-    width: 80%;
-    align-self: flex-start;
-    margin: 35px auto;
-    height: 56px;
-    font-size: 2em;
-}
-.show-menu-bar .nav-links:hover{
-    transition: 2s;
-    background-color: rgb(171, 189, 198);
-    width: 100%;
-    padding: 15px;
-}
-.nav-links a{
-    display: block;
-    width: 100%;
-}
-.nav-links a:hover{
-    color: #484848;
-}
-
-/*##################  Home Page ##################################*/
-	.page{
-		height: 100vh;
-		width: 100vw;
-	}
-	.page.home{
-		background-color: #32ebc4;
-	    z-index: -1;
-	    margin: 0;
-	    padding: 0;
-	}
-
-	.hero-wrapper{
-		max-width: 1440px;
-		width: 90%;
-		align-self: center;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: space-between;
-		position: relative;
-	}
-	
-	.hero-text{
-		width: 80%;
-	}
-
-	#hero-image{
-		width: 80%;
-	}
-	
-	.guide-btn{
-		display: none;
-	}
-	/*=============== About Page ===============================*/
-	.page.about{
-		background-color: 
-	}
-	.about-page{
-		max-width: 1440px;
-		width: 90%;
-		align-self: center;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: space-between;
-		position: relative;
-	}
-
-	.about-page img{
+    nav {
+        width: 90%;
+        display: flex;
+        margin: 0 auto;
+        position: absolute
+    }
+    .nav-bar {
+        display: none
+    }
+    .menu-bar {
+        width: 40px;
+        cursor: pointer;
+        margin-left: auto
+    }
+    .icon-bar {
+        height: 4px;
+        margin: 6px auto;
+        background-color: #fff;
+        border-radius: 3px;
+        transition: all 1s
+    }
+    ul.nav-bar.show-menu-bar {
+        transition: all 2s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column
+    }
+    .show-menu-bar {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #405763;
+        border: 1px solid;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        text-align: center
+    }
+    .about-page,
+    .hero-wrapper {
+        max-width: 1440px;
+        position: relative
+    }
+    .show-menu-bar li {
         width: 80%;
+        align-self: flex-start;
+        margin: 35px auto;
+        height: 56px;
+        font-size: 2em
+    }
+    .show-menu-bar .nav-links:hover {
+        transition: 2s;
+        background-color: #abbdc6;
+        width: 100%;
+        padding: 15px
+    }
+    .nav-links a {
+        display: block;
+        width: 100%
+    }
+    .nav-links a:hover {
+        color: #484848
     }
     
-    .about-text{
+    .page.home {
+        background-color: #32ebc4;
+        z-index: -1;
+        margin: 0;
+        padding: 0
+    }
+    .hero-wrapper {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between
+    }
+    .about-page,
+    .work-page {
+        flex-direction: column;
+        align-self: center
+    }
+    #hero-image,
+    .hero-text {
+        width: 80%
+    }
+    .guide-btn {
+        display: none
+    }
+    .about-page {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between
+    }
+    .about-page img {
+        width: 80%
+    }
+    .about-text {
         width: 80%;
         text-align: justify;
-        font-size: 1.2em;
-		font-family: 'Muli', sans-serif;
-	
+        font-size: 1.2em
     }
-    .founder img{
-		width: 25%;
-		position: absolute;
-		right: 5px;
-		top: -17px;
-	}
-
-
-	.founder p{
+    .founder p,
+    .founder p span {
+        position: relative;
+        font-size: .8em
+    }
+    .founder p {
         width: 80%;
         float: left;
-        font-size: 0.8em;
         font-style: italic;
-        color: #1abc9c;
-        position: relative;
+        color: #1abc9c
     }
-    .founder p span{
-        position: relative;
+    .founder p span {
         top: 27px;
         right: 47px;
         display: block;
         text-align: right;
         color: #7d7a7a;
         font-style: normal;
-        font-weight: 600;
-        font-size: 0.8em;
+        font-weight: 600
     }
-    .founder img{
+    .message div,
+    .service-type,
+    .service-type li {
+        font-size: 1.2em
+    }
+    .founder img {
         width: 25%;
         position: absolute;
         right: 5px;
-        top: 10%;
+        top: 10%
     }
-
-    .work-page{
-    	width: 90%;
-    	display: flex;
-    	align-self: center;
-    	flex-direction: column;
-    	margin: 0;
-    	padding: 0
+    .work-page {
+        width: 90%;
+        display: flex;
+        margin: 0;
+        padding: 0
     }
-
-    .work-page li{
-       
+    .work-detail,
+    .work-page li img {
+        width: 100%;
+        transition: 1s
+    }
+    .work-page li {
         padding: 0;
         margin: 10px;
         position: relative;
         border-radius: 15px;
-        overflow: hidden;
+        overflow: hidden
     }
-
-    .work-page li img{
-        width: 100%;
-        transition: 1s;
+    .work-page li:hover img {
+        transform: scale(1.2)
     }
-    .work-page li:hover img{
-        transform: scale(1.2);
-    }
-    .work-detail{
+    .work-detail {
         opacity: 0;
-        background-color: rgba(39, 41, 39, 0.92);
-        transition: 1s;
+        background-color: rgba(39, 41, 39, .92);
         z-index: 3;
         display: flex;
         flex-direction: column;
@@ -212,110 +179,92 @@
         left: 0;
         color: #fff;
         height: 100%;
-        width: 100%;
         justify-content: center;
-        text-align: center;
-
+        text-align: center
     }
-    .work-detail:hover{
+    .work-detail:hover {
         opacity: 1;
-        transform: scale(1.2);
-
-	}
-
-	/*================= Servicess ============================*/
-
-	.service{
-		width: 90%;
-		align-self: center;
-		align-items: center;
-		display: flex;
-		flex-direction: column;
-	}
-
-	.service-type{
-		display: flex;
-		flex-direction: column;
-		font-size: 1.2em;
-		font-family: 'Muli', sans-serif;
-	}
-	.service-type li{
-		font-size: 1.2em;
-	}
-	.service-type li h1{
-		text-align: center;
-        color: #1abc9c;
-	}
-	.service-type li p{
-		text-align: justify;
-	}
-	.service-type li img{
-		width: 50%;
-		height: 50%;
-		max-height: 50%;
-		max-width: 50%;
-		border-radius: 25px;
-	}
-	
-	.service-icon {
-	    display: flex;
-	    justify-content: center;
-	}
-    
-    /*========= Send A Brief ============================*/
-	.page.send{
+        transform: scale(1.2)
+    }
+    .service {
+        width: 90%;
+        align-self: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column
+    }
+    .service-type {
+        display: flex;
+        flex-direction: column
+    }
+    .service-type li h1 {
+        text-align: center;
+        color: #1abc9c
+    }
+    .message div,
+    .page.send h1 {
+        color: #fff;
+        font-family: Muli, sans-serif
+    }
+    .service-type li p {
+        text-align: justify
+    }
+    .service-type li img {
+        width: 50%;
+        height: 50%;
+        max-height: 50%;
+        max-width: 50%;
+        border-radius: 25px
+    }
+    .service-icon {
+        display: flex;
+        justify-content: center
+    }
+    .page.send {
         background-color: #1abc9c;
         margin: 0;
         padding: 0;
         display: flex;
-        justify-content: center;
+        justify-content: center
     }
-
-    .message img{
-        width: 120px;
+    .message img {
+        width: 120px
     }
-    .message div{
-        color: #fff;
-        font-size: 1.2em;
-        font-family: 'Muli', sans-serif;
-        
-    }
-
-    @keyframes show{
-        0%{opacity: 0}
-        50%{opacity: 1}
-        75%{opacity: 1}
-        100%{opacity: 0}
-    }
-    .contact-page{
+    .contact-page,
+    .send-a-brief {
+        flex-direction: column;
         width: 95%;
-        display: flex;
-        flex-direction: column;
+        display: flex
+    }
+    @keyframes show {
+        0%,
+        100% {
+            opacity: 0
+        }
+        50%,
+        75% {
+            opacity: 1
+        }
+    }
+    .contact-page {
         align-items: center;
-        align-self: center;
+        align-self: center
     }
-    .page.send h1{
+    .page.send h1 {
         font-size: 1.8em;
-        font-family: 'Muli', sans-serif;
         font-weight: 600;
-        color: #ffffff;
-        text-align: center;
+        text-align: center
     }
-    
-    .send-a-brief{
-        display: flex;
-        flex-direction: column;
+    .send-a-brief {
         justify-content: space-between;
         align-items: center;
-        max-width: 1440px;
-        width: 95%;
+        max-width: 1440px
     }
-
-    .send-a-brief img{
+    .send-a-brief img {
         width: 300px;
-        align-self: center;
+        align-self: center
     }
-    .contact-page form{
+    .contact-page form {
         width: 90%;
         max-width: 625px;
         padding: 10px 2px;
@@ -328,143 +277,125 @@
         align-items: center;
         margin-top: 15px
     }
-    .contact-page form p{
-        width: 80%;
-        display: flex;
+    .contact-page form p,
+    .message {
         justify-content: center;
-        margin: 5px;
+        display: flex
     }
-    input.contact{
+    .contact-page form p {
+        width: 80%;
+        margin: 5px
+    }
+    input.contact {
         width: 98%;
         height: 40px;
         border: 0;
         border-bottom: 1.5px solid;
-        color: black;
+        color: #000;
         padding: 3px 10px;
         font-size: 1.1em;
-        font-family: 'Muli', sans-serif;
-        outline: none; 
+        font-family: Muli, sans-serif;
+        outline: 0;
         transition: 1s;
-        margin: 15px auto;
+        margin: 15px auto
     }
-    input.contact:focus{ 
+    #textarea,
+    .send-email {
+        font-size: 1.2em;
+        outline: 0
+    }
+    input.contact:focus {
         transform: scale(1.5);
-        border-radius: 5px;
+        border-radius: 5px
     }
-    
-    #textarea{
+    #textarea {
         width: 80%;
         height: 160px;
-        border-bottom: 1px solid;
-        outline: none;
         align-self: center;
         transition: 2s;
-        font-size: 1.2em;
-        font-family: 'Muli', sans-serif;
+        font-family: Muli, sans-serif;
         padding: 20px;
         margin-top: 44px;
-        border-left: 0 !important;
+        border-left: 0!important;
         margin-bottom: 25px;
-        border-right: 0 !important;
+        border-right: 0!important;
         border: 2px solid #1abc9c;
-        border-radius: 0;
+        border-radius: 0
     }
-    #textarea:focus{
+    .contact-icons,
+    .page.contact h1 {
+        font-family: Muli, sans-serif;
+        text-align: center
+    }
+    #textarea:focus {
         transform: scale(1.5);
-        border-radius: 3px;
-
+        border-radius: 3px
     }
-    
-    .send-email{
+    .send-email {
         width: 40%;
         min-width: 200px;
-        margin: 10px auto 30px auto;
+        margin: 10px auto 30px;
         height: 40px;
         border-radius: 40px;
         background-color: #E91E63;
         border: 4px solid #E91E63;
         color: #fff;
-        font-size: 1.2em;
-        cursor: pointer;
-        /*padding: 10px;*/
-        outline: none;
+        cursor: pointer
     }
-    
-    .message{
-        display: flex;
-        justify-content: center;
+    .message,
+    footer {
+        background-color: #34495e
+    }
+    .message {
         align-items: center;
         align-self: center;
         position: absolute;
         top: 75px;
         width: 100%;
-        background-color: #34495e;
-        opacity: 0;
-
+        opacity: 0
     }
-    
-    /*========== Contact Us =================================*/
-    .page.contact h1{
+    .page.contact h1 {
         color: #1abc9c;
-        font-family: "Muli", sans-serif;
         font-size: 3em;
-        text-align: center;
-        margin-bottom: 6%;
+        margin-bottom: 6%
     }
-    .contact-us{
+    .contact-us {
         display: flex;
         justify-content: space-between;
         flex-direction: column;
         width: 90%;
         max-width: 1440px;
-        align-self: center;
+        align-self: center
     }
-    .contact-icons{
+    .contact-icons {
         display: flex;
         flex: 0 32%;
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
         font-size: 1.5em;
-        text-align: center;
-        word-break: break-word;
-        font-family: "Muli", sans-serif;
+        word-break: break-word
     }
-
-    .contact-icons img{
+    .contact-icons img {
         width: 50%;
-        border-radius: 50%;
+        border-radius: 50%
     }
-
-    .contact-img{
+    .contact-img {
         width: 40%;
-        align-self: center;
+        align-self: center
     }
-
-    footer{
+    footer {
         text-align: center;
         height: 300px;
         color: #fff;
-        background-color: #34495e;
-        overflow: hidden;
+        overflow: hidden
     }
-
-    footer iframe{
+    footer iframe {
         width: 100%;
         align-self: flex-start;
         position: relative;
         top: -48px;
         overflow: hidden;
-        height: 348px;
+        height: 348px
     }
-
-
-
-
-
-
-
-
-
-
 }

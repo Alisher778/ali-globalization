@@ -148,14 +148,13 @@ nav li {
 }
 
 .page.home {
-    background-color: #1abc9c;
-    align-items: center;
+    background-color: #1abc9c
 }
 
 .hero-text {
     color: #f1f1f1;
     font-family: Muli, sans-serif;
-    font-size: 1.6em;
+    font-size: 1.2em
 }
 
 .case-study,
@@ -1304,123 +1303,54 @@ nav li {
     }
 }
 @media screen and (min-width:721px) and (max-width:1280px) {
-    hero-wrapper,
+    .about-page,
+    .hero-wrapper,
     .logo,
-    nav {
-        align-self: center;
-        margin-left: 57px;
-        margin-top: 22px;
+    .nav-bar {
+        align-self: center
+    }
+    .work-detail:hover,
+    .work-page li:hover img {
+        transform: scale(1.2)
     }
     .about-text,
     .service-type {
         font-family: Muli, sans-serif
     }
     nav {
-        width: 100%;
         display: flex;
-        margin: 0 auto;
-        position: fixed;
-        background-color: #607D8B;
-        top: 0;
-        height: 10%;
+        width: 80%;
+        margin: 0 auto
     }
-    .nav-bar {
-        display: none
-    }
-    .logo img{
-        width: 325px;
+    .logo {
+        width: 120px
     }
     .menu-bar {
-        width: 11%;
-        cursor: pointer;
-        margin-left: auto;
-        margin-right: 63px;
-        margin-top: 3%;
-    }
-    .icon-bar {
-        height: 8px;
-        margin: 16px auto;
-        background-color: #fff;
-        border-radius: 3px;
-        transition: all 1s
-    }
-    ul.nav-bar.show-menu-bar {
-        transition: all 2s;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column
-    }
-    .show-menu-bar {
-        display: flex;
-        flex-direction: column;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: #405763;
-        border: 1px solid;
-        align-items: center;
-        margin: 0;
-        padding: 0;
-        text-align: center
+        display: none
     }
     .about-page,
-    .hero-wrapper {
-        max-width: 1440px;
-        position: relative
+    .guide-btn,
+    .nav-bar {
+        display: flex
     }
-    .show-menu-bar li {
-        width: 80%;
-        align-self: flex-start;
-        margin: 35px auto;
-        height: 56px;
-        font-size: 2em
-    }
-    .show-menu-bar .nav-links:hover {
-        transition: 2s;
-        background-color: #abbdc6;
-        width: 100%;
-        padding: 15px
-    }
-    .nav-links a {
-        display: block;
-        width: 100%
-    }
-    .nav-links a:hover {
-        color: #484848
+    .nav-bar {
+        justify-content: space-around;
+        min-width: 600px;
+        max-width: 700px;
+        margin-left: auto
     }
     .hero-wrapper {
         max-width: 1440px;
         width: 90%;
         display: flex;
-        flex-direction: column;
         align-items: center;
-        justify-content: space-between;
-        position: relative;
-        top: 6vh;
+        justify-content: space-between
     }
     .hero-text {
-        width: 80%;
-        text-align: center;
-    }
-    .hero-text h1{
-        font-size: 3em;
-    }
-    .hero-text p{
-        text-align: justify;
-        font-size: 1.6em;
-    }
-    .send-brief{
-       padding: 10px 42px;
-       font-size: 1.7em;
-       border-radius: 38px;
-       border: 4px solid #fff;
+        width: 40%
     }
     #hero-image {
-        width: 87%;
-        margin-top: 60px;
+        width: 50%
     }
     .about-page {
         max-width: 1440px;
