@@ -207,7 +207,7 @@ nav li {
 
 .case-study {
     margin-bottom: 30px;
-    font-size: 3.5em;
+    font-size: 2.5em;
 }
 
 .line {
@@ -216,15 +216,30 @@ nav li {
     background: #000
 }
 
+.offer{
+    font-size: 2.5em;
+    color: #1abc9e;
+}
+
+.page.send h1{
+    
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    text-align: center
+}
 .page.contact {
     justify-content: space-between
 }
 
 .contact-us a {
     flex: 0 32%;
-    color: #0c8e76
+    color: #0c8e76;
 }
 
+.message{
+    color: #fff;
+}
 @media screen and (min-width:1921px) {
     .nav-bar,
     nav {
@@ -794,7 +809,7 @@ nav li {
         align-self: center
     }
     .page.send h1 {
-        font-size: 2em;
+        font-size: 2.5em;
         font-weight: 600;
         text-align: center;
         margin-bottom: 100px
@@ -1476,7 +1491,7 @@ nav li {
     .message div,
     .service-text,
     .service-type {
-        font-size: 1.2em
+        font-size: 2em
     }
     .founder img {
         width: 25%;
@@ -1529,7 +1544,11 @@ nav li {
         display: flex;
         flex-direction: column;
     }
-
+    .offer{
+        font-size: 3.5em;
+        color: #1abc9e;
+        margin-top: 111px;
+    }
     .service-type{
         display: flex;
         flex-direction: column;
@@ -1574,7 +1593,7 @@ nav li {
         justify-content: center
     }
     .message img {
-        width: 120px
+        width: 200px
     }
     .contact-page,
     .send-a-brief {
@@ -1596,7 +1615,7 @@ nav li {
         align-items: center
     }
     .page.send h1 {
-        font-size: 2em;
+        font-size: 2.5em;
         font-weight: 600;
         text-align: center
     }
@@ -1637,7 +1656,7 @@ nav li {
         border-bottom: 1.5px solid;
         color: #000;
         padding: 3px 10px;
-        font-size: 1.1em;
+        font-size: 1.5em;
         font-family: Muli, sans-serif;
         outline: 0;
         transition: 1s;
@@ -1659,6 +1678,7 @@ nav li {
         font-family: Muli, sans-serif;
         padding: 20px;
         margin-top: 44px;
+        font-size: 1.8em;
         border-left: 0!important;
         margin-bottom: 25px;
         border-right: 0!important;
@@ -1699,11 +1719,12 @@ nav li {
     }
     .page.contact h1 {
         color: #1abc9c;
-        font-size: 3em;
+        font-size: 3.5em;
         margin-bottom: 6%
     }
     .contact-us {
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
         width: 90%;
         max-width: 1440px
@@ -1718,8 +1739,12 @@ nav li {
         word-break: break-word
     }
     .contact-icons img {
-        width: 250px;
+        width: 450px;
         border-radius: 50%
+    }
+
+    .contact-icons p{
+        font-size: 2em;
     }
     .contact-img {
         width: 40%
