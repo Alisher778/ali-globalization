@@ -141,7 +141,6 @@ nav li {
 .page {
     min-height: 100vh;
     width: 100vw;
-    height: 100%;
     display: flex;
     justify-content: center;
     position: relative
@@ -1323,7 +1322,7 @@ nav li {
         position: fixed;
         background-color: #607D8B;
         top: 0;
-        height: 10%;
+        height: 175px;
     }
     .nav-bar {
         display: none
