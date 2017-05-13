@@ -12,25 +12,26 @@ $(document).ready(function(){
 		})
 	});
 
-	+	//  On Scroll Change navbar background color
+	//  On Scroll Change navbar background color
  	
  
-	$(window).scroll(function(){
-	  	var deviceWidth = $(window).width();
-		var scrollTop = $(window).scrollTop();
+	$(document).scroll(function(){
+	  	var deviceWidth = $(document).width();
+		var scrollTop = $(document).scrollTop();
 		console.log(scrollTop)
 	   
 
 	    if(deviceWidth < 1280 && scrollTop > 100){
 	  
-	    	$('nav').css('background-color', '#027369')
+	    	$('nav').css('background-color', '#027369');
+	    	$('.work-page li').slice(-3).hide();
+	    	$('.load-more').css('display', 'flex');
 	    
 	    }else{
 	    		$('nav').css('background-color', 'transparent')
 	    	}
+  	});
 
-	    
-  	})
 
 	// Send email with EmailJS
 
