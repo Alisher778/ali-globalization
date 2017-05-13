@@ -1335,7 +1335,6 @@ nav li {
         display: flex;
         margin: 0 auto;
         position: fixed;
-        background-color: #607D8B;
         top: 0;
         height: 175px;
     }
