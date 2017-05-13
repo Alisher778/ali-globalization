@@ -48,9 +48,14 @@ nav {
     width: 90%;
     margin: 0 auto;
     position: absolute;
+    -webkit-position: relative;
     top: 30px;
     max-width: 1440px;
     z-index: 4;
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-webkit-flexbox;
+    -webkit-align-self: center;
 }
 
 nav a {
@@ -1335,7 +1340,7 @@ nav li {
         display: flex;
         margin: 0 auto;
         position: fixed;
-        background-color: #607D8B;
+        background-color: transparent;
         top: 0;
         height: 175px;
     }
