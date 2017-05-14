@@ -242,12 +242,12 @@ nav li {
 }
 
 .load-more{
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     width: 150px;
-    height: 40px;
+    padding: 20px;
     border-radius: 5px;
     border: 1px solid;
     background-color: #fff;
