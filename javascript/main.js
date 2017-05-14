@@ -30,7 +30,7 @@ $(document).ready(function(){
 
 	// On click display Coming soon message
 	$('.load-more').click(function(){
-		$('.coming-soon').css('animation', 'show 3s');
+		$('.coming-soon').css({'animation':'show 3s', 'z-index':'7'});
 		// remove this animation after 3s
 		setTimeout(function(){$('.coming-soon').removeAttr('style')}, 3000)
 	    		

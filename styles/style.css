@@ -270,7 +270,7 @@ nav li {
     display: flex;
     justify-content: center;
     opacity: 0;
-    z-index: 7;
+    z-index: -1;
 }
 .coming-soon img{
         width: 200px;
