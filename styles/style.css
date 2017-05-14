@@ -278,6 +278,20 @@ nav li {
 .coming-soon h1{
     font-size: 2.5em;
 }
+
+#top{
+    position: fixed; 
+    right: 30px;  
+    bottom: 30px; 
+    text-align: center; 
+    border-radius: 50%; 
+    color: #fbfafa; 
+    background-color: rgba(96, 125, 139, 0.99); 
+    text-align: center; 
+    font-size: 3.4em; 
+    padding: 33px; 
+    z-index: 5
+}
 @media screen and (min-width:1921px) {
     .nav-bar,
     nav {
@@ -756,9 +770,9 @@ nav li {
         width: 100%
     }
     .work-page li {
-        flex: 0 31%;
+        flex: 0 30%;
         padding: 0;
-        margin: 10px;
+        margin: 10px auto;
         position: relative;
         overflow: hidden;
         border-radius: 15px
@@ -1553,7 +1567,7 @@ nav li {
     .work-page li {
         flex: 0 46%;
         padding: 0;
-        margin: 10px;
+        margin: 40px auto;
         position: relative;
         overflow: hidden;
         border-radius: 15px
