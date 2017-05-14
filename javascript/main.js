@@ -12,6 +12,25 @@ $(document).ready(function(){
 		})
 	});
 
+
+	//  Safari nav bar centering
+
+	// Check if the browser is Safari
+		if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+			// If safari on Resize window assign value to margin-left
+
+			$(window).on('load resize',function(){
+				var navWidth = $('nav').width();
+				var bodyWidth = $('body').width();
+
+				var setMarginLeft = (bodyWidth - navWidth) / 2;
+				$('nav').css('margin-left', setMarginLeft);
+				console.log(setMarginLeft)
+			})
+		}
+	
+	
+	
 	//  On Scroll Change navbar background color
  	
  
