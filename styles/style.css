@@ -154,7 +154,7 @@ nav li {
 .hero-text {
     color: #f1f1f1;
     font-family: Muli, sans-serif;
-    font-size: 1.6em;
+    font-size: 1.2em;
 }
 
 .case-study,
@@ -247,7 +247,7 @@ nav li {
     align-items: center;
     cursor: pointer;
     width: 150px;
-    padding: 20px;
+    padding: 15px;
     border-radius: 5px;
     border: 1px solid;
     background-color: #fff;
@@ -1017,7 +1017,7 @@ nav li {
     }
     nav {
         display: flex;
-        width: 80%;
+        width: 90%;
         margin: 0 auto
     }
     .logo {
