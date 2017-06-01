@@ -655,6 +655,10 @@ nav li {
         overflow: hidden;
         height: 348px
     }
+    #top{
+        font-size: 2.4em;
+        padding: 16px;
+    }
 }
 @media screen and (min-width:1441px) and (max-width:1920px) {
     .nav-bar,
@@ -1016,6 +1020,10 @@ nav li {
         overflow: hidden;
         height: 348px
     }
+    #top{
+        font-size: 2.4em;
+        padding: 16px;
+    }
 }
 @media screen and (min-width:1281px) and (max-width:1440px) {
     .about-page,
@@ -1371,6 +1379,10 @@ nav li {
         top: -48px;
         overflow: hidden;
         height: 348px
+    }
+    #top{
+        font-size: 2.4em;
+        padding: 16px;
     }
 }
 @media screen and (min-width:721px) and (max-width:1280px) {
@@ -1816,6 +1828,10 @@ nav li {
         top: -48px;
         overflow: hidden;
         height: 348px
+    }
+    #top{
+        font-size: 2.4em;
+        padding: 16px;
     }
 }
 @media screen and (min-width:401px) and (max-width:720px) {
